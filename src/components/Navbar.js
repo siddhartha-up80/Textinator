@@ -21,13 +21,13 @@ export default function Navbar(props) {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0 text-white ">
-      <li><a>{props.item1}</a></li>
+      <li className='border-solid border-b-4 rounded-md border-white mx-2'><a>{props.item1}</a></li>
       
-      <li><a>{props.item2}</a></li>
+      <li className='border-solid border-b-4 rounded-md border-white mx-2'><a>{props.item2}</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className=" btn flex border-double border-2 border-white rounded-xl hover:bg-red-700 hover:border-none hover:text-white bg-white text-black">Restart</a>
+    <a className=" btn flex border-double border-2 border-white rounded-xl hover:bg-red-700 hover:border-none hover:text-white bg-white text-black">Dusk</a>
   </div>
 </div>
 
